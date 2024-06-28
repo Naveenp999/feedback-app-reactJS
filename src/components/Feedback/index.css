@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+.sub-container {
+  width: 80%;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.heading {
+  font-size: 15px;
+  color: #0f172a;
+  margin-top: 5px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  list-style-type: none;
+  padding: 0px;
+}
+li {
+  margin: 0px;
+  padding: 0px;
+}
+.review-icon {
+  height: 35px;
+  width: 35px;
+}
+@media screen and (min-width: 576px) {
+  .review-icon {
+    height: 45px;
+    width: 45px;
+  }
+  .sub-container {
+    padding: 35px;
+  }
+  .icon-container {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .review-icon {
+    height: 80px;
+    width: 80px;
+  }
+  .sub-container {
+    padding: 50px;
+  }
+}
+.title {
+  font-size: 10px;
+  margin-top: 3px;
+  color: #1e293b;
+}
+@media screen and (min-width : 768px){
+  .title{
+    font-size: 20px;
+  }
+}
+.button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
